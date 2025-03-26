@@ -1,15 +1,23 @@
+# Python
 __pycache__/
-*.ckpt
+*.pyc
+*.pyo
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models and Checkpoints
 *.pt
+*.ckpt
 *.bin
-*.log
-*.jsonl
-*.ipynb_checkpoints
+*.safetensors
 models/
 checkpoints/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
+
+# Datasets and Outputs
+*.csv
+*.json
+*.jsonl
+*.log
+outputs/
+tmp/
