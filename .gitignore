@@ -1,0 +1,15 @@
+__pycache__/
+*.ckpt
+*.pt
+*.bin
+*.log
+*.jsonl
+*.ipynb_checkpoints
+models/
+checkpoints/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
